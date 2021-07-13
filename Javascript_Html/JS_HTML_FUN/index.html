@@ -2,9 +2,24 @@
 <html>
   <head>
     <script src="index.js"></script>
+    <style>
+      .parent-div {
+        background-color: aqua;
+        padding: 40px;
+        margin: 40px;
+      }
+      .child-div {
+        background-color: gray;
+        padding: 40px;
+        margin: 40px;
+      }
+    </style>
   </head>
   <body>
     <h1>The script src attribute</h1>
     <a onclick="callMethod(event)" href="https://www.google.com">Google</a>
+    <div class="parent-div">
+      <div class="child-div"></div>
+    </div>
   </body>
 </html>
