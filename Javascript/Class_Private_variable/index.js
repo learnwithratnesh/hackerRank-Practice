@@ -1,5 +1,4 @@
 class Human {
-  #numberID = 10
   constructor() {
     this.gender = "male";
   }
@@ -19,5 +18,6 @@ class Man extends Human {
 }
 
 let rt = new Man();
-
-
+rt.name = "Ratnesh Tiwari";
+rt.printGender();
+rt.printName();
