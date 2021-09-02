@@ -19,5 +19,5 @@ class Man extends Human {
 
 let rt = new Man();
 rt.name = "Ratnesh Tiwari";
-rt.printGender();
+// rt.printGender();
 rt.printName();
